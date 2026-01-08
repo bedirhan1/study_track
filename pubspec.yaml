@@ -1,0 +1,42 @@
+name: study_track
+description: "StudyTrack - Firebase Tabanlı Çalışma Süresi Takip ve Motivasyon Uygulaması"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # --- FIREBASE BİLEŞENLERİ ---
+  firebase_core: ^3.10.1
+  firebase_auth: ^5.4.4
+  cloud_firestore: ^5.6.0
+  firebase_storage: ^12.3.7
+
+  # --- STATE MANAGEMENT ---
+  provider: ^6.1.2
+
+  # --- UI & ARAÇLAR ---
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  fl_chart: ^0.70.2
+  image_picker: ^1.1.2
+  font_awesome_flutter: ^10.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assetleri henüz kullanmayacağımız için hata vermemesi adına şimdilik yorum satırı yapıyorum.
+  # Kullanacağın zaman başındaki # işaretlerini kaldırırsın.
+  # assets:
+  #   - assets/images/
