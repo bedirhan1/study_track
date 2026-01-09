@@ -35,8 +35,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  # Assetleri henüz kullanmayacağımız için hata vermemesi adına şimdilik yorum satırı yapıyorum.
-  # Kullanacağın zaman başındaki # işaretlerini kaldırırsın.
-  # assets:
-  #   - assets/images/
